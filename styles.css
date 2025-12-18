@@ -194,6 +194,7 @@ section.card h1{ margin:0 0 12px 0; font-size:20px; }
   box-shadow: 0 20px 60px rgba(0,0,0,0.7);
 }
 .modal-card h2{ margin:0 0 8px 0; }
+.modal-card h2{ color: var(--text); }
 .modal-price{ color:var(--muted); margin-bottom:12px; }
 .item-image{ display:flex; justify-content:center; align-items:center; margin:8px 0 12px; }
 .item-image img{ max-width:100%; height:auto; border-radius:8px; border:1px solid rgba(255,255,255,0.03); }
