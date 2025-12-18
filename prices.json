@@ -1,0 +1,37 @@
+[
+  { 
+    "item": "Cupid's Halo", 
+    "min": 2150000, 
+    "max": 2300000, 
+    "section": 1,
+    "image": "images/Cupids_Halo.png"
+  },
+  { 
+    "item": "Cupid's Wings", 
+    "min": 200000, 
+    "max": 220000, 
+    "section": 1,
+    "image": "images/Cupids_Wings.png"
+  },
+  { 
+    "item": "Valentine Wings", 
+    "min": 75000, 
+    "max": 85000, 
+    "section": 1,
+    "image": "images/Valentine_Wings.png"
+  },
+  { 
+    "item": "Heart Wings", 
+    "min": 4000, 
+    "max": 6500, 
+    "section": 1,
+    "image": "images/Heart_Wings.png"
+  },
+  { 
+    "item": "Angel Wings", 
+    "min": 500000, 
+    "max": 1000000, 
+    "section": 2,
+    "image": "images/Angel_Wings.png"
+  }
+]
