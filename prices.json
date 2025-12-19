@@ -1,15 +1,15 @@
 [
   { 
     "item": "Cupid's Halo", 
-    "min": 2150000, 
-    "max": 2300000, 
+    "min": 3500000, 
+    "max": 4000000, 
     "section": 1,
     "image": "images/Cupids_Halo.png"
   },
   { 
     "item": "Cupid's Wings", 
-    "min": 200000, 
-    "max": 220000, 
+    "min": 270000, 
+    "max": 320000, 
     "section": 1,
     "image": "images/Cupids_Wings.png"
   },
@@ -28,10 +28,143 @@
     "image": "images/Heart_Wings.png"
   },
   { 
-    "item": "Angel Wings", 
-    "min": 500000, 
-    "max": 1000000, 
-    "section": 2,
+    "item": "Wuvva Scarf", 
+    "min": 33000, 
+    "max": 38000, 
+    "section": 1,
     "image": "images/Angel_Wings.png"
+  },
+  {
+    "item": "Heart Backpack",
+    "min": 500,
+    "max": 1000,
+    "section": 1,
+    "image": "images/Heart_Backpack.png"
+  },
+  {
+    "item": "Turtle Backpack",
+    "min": 2250,
+    "max": 3000,
+    "section": 1,
+    "image": "images/Turtle_Backpack.png"
+  },
+  {
+    "item": "Mouse Backpack",
+    "min": 750,
+    "max": 1250,
+    "section": 1,
+    "image": "images/Mouse_Backpack.png"
+  },
+  {
+    "item": "Stuff Toy Backpack",
+    "min": 200,
+    "max": 300,
+    "section": 1,
+    "image": "images/Stuff_Toy_Backpack.png"
+  },
+  {
+    "item": "Panda Hat",
+    "min": 8000,
+    "max": 12000,
+    "section": 1,
+    "image": "images/Panda_Hat.png"
+  },
+  {
+    "item": "Alien Hat",
+    "min": 250,
+    "max": 550,
+    "section": 1,
+    "image": "images/Alien_Hat.png"
+  },
+  {
+    "item": "Queen's Crown",
+    "min": 8000,
+    "max": 13000,
+    "section": 1,
+    "image": "images/Queen's_Crown.png"
+  },
+  {
+    "item": "King's Crown",
+    "min": 500,
+    "max": 1000,
+    "section": 1,
+    "image": "images/King's_Crown.png"
+  },
+  {
+    "item": "Fake Halo",
+    "min": 500,
+    "max": 1000,
+    "section": 1,
+    "image": "images/Fake_Halo.png"
+  },
+  {
+    "item": "Heart Hat",
+    "min": 150,
+    "max": 250,
+    "section": 1,
+    "image": "images/Heart_Hat.png"
+  },
+  {
+    "item": "Apple O' Love",
+    "min": 150,
+    "max": 250,
+    "section": 1,
+    "image": "images/Apple_O'Love.png"
+  },
+  {
+    "item": "Heart Beads",
+    "min": 200,
+    "max": 400,
+    "section": 1,
+    "image": "images/Heart_Beads.png"
+  },
+  {
+    "item": "Romantic Flower",
+    "min": 1000,
+    "max": 1500,
+    "section": 1,
+    "image": "images/Romantic_Flower.png"
+  },
+  {
+    "item": "Rose  on the Mouth",
+    "min": 600,
+    "max": 1000,
+    "section": 1,
+    "image": "images/Rose_On_The_Mouth.png"
+  },
+  {
+    "item": "Heart Eyes",
+    "min": 1500,
+    "max": 2000,
+    "section": 1,
+    "image": "images/Heart_Eyes.png"
+  },
+  {
+    "item": "Heart Headphones",
+    "min": 300,
+    "max": 600,
+    "section": 1,
+    "image": "images/Heart_Headphones.png"
+  },
+  {
+    "item": "Heart Tiara",
+    "min": 300,
+    "max": 600,
+    "section": 1,
+    "image": "images/Heart_Tiara.png"
+  },
+  {
+    "item": "Red Wuvva Shirt",
+    "min": 2000,
+    "max": 3000,
+    "section": 1,
+    "image": "images/Red_Wuvva_Shirt.png"
+  },
+  {
+    "item": "Pink Wuvva Shirt",
+    "min": 2000,
+    "max": 3000,
+    "section": 1,
+    "image": "images/Pink_Wuvva_Shirt.png"
   }
 ]

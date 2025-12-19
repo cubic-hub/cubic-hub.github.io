@@ -77,6 +77,17 @@
     let currentSection = 1;
     let highlightedIndex = -1;
 
+    // Section names mapping
+    const sectionNames = {
+      1: "Valentine's Day",
+      2: "Summer & Bad Egg",
+      3: "Fan",
+      4: "Crhistmas",
+      5: "Quest & Hats",
+      6: "Hats",
+      7: "Accessories & Wands"
+    };
+
     // Elements
     const searchInput = document.getElementById('search');
     const clearBtn = document.getElementById('clear-btn');
@@ -193,7 +204,7 @@
 
       sectionNumbers.forEach(num => {
         const btn = document.createElement('button');
-        btn.textContent = `Section ${num}`;
+        btn.textContent = sectionNames[num] || `Section ${num}`;
         btn.className = (num === currentSection) ? 'btn-primary' : 'btn-secondary';
         btn.addEventListener('click', () => {
           currentSection = num;
