@@ -4,98 +4,98 @@
     "min": 3500000, 
     "max": 4000000, 
     "section": 1,
-    "image": "images/Cupids_Halo.png"
+    "image": "../images/Cupids_Halo.png"
   },
   { 
     "item": "Cupid's Wings", 
     "min": 270000, 
     "max": 320000, 
     "section": 1, 
-    "image": "images/Cupids_Wings.png"
+    "image": "../images/Cupids_Wings.png"
   },
   { 
     "item": "Valentine Wings", 
     "min": 75000, 
     "max": 85000, 
     "section": 1,
-    "image": "images/Valentine_Wings.png"
+    "image": "../images/Valentine_Wings.png"
   },
   { 
     "item": "Heart Wings", 
     "min": 4000, 
     "max": 6500, 
     "section": 1,
-    "image": "images/Heart_Wings.png"
+    "image": "../images/Heart_Wings.png"
   },
   { 
     "item": "Wuvva Scarf", 
     "min": 33000, 
     "max": 38000, 
     "section": 1,
-    "image": "images/Angel_Wings.png"
+    "image": "../images/Angel_Wings.png"
   },
   {
     "item": "Heart Backpack",
     "min": 500,
     "max": 1000,
     "section": 1,
-    "image": "images/Heart_Backpack.png"
+    "image": "../images/Heart_Backpack.png"
   },
   {
     "item": "Turtle Backpack",
     "min": 2250,
     "max": 3000,
     "section": 1,
-    "image": "images/Turtle_Backpack.png"
+    "image": "../images/Turtle_Backpack.png"
   },
   {
     "item": "Mouse Backpack",
     "min": 750,
     "max": 1250,
     "section": 1,
-    "image": "images/Mouse_Backpack.png"
+    "image": "../images/Mouse_Backpack.png"
   },
   {
     "item": "Stuff Toy Backpack",
     "min": 200,
     "max": 300,
     "section": 1,
-    "image": "images/Stuff_Toy_Backpack.png"
+    "image": "../images/Stuff_Toy_Backpack.png"
   },
   {
     "item": "Panda Hat",
     "min": 8000,
     "max": 12000,
     "section": 1,
-    "image": "images/Panda_Hat.png"
+    "image": "../images/Panda_Hat.png"
   },
   {
     "item": "Alien Hat",
     "min": 250,
     "max": 550,
     "section": 1,
-    "image": "images/Alien_Hat.png"
+    "image": "../images/Alien_Hat.png"
   },
   {
     "item": "Queen's Crown",
     "min": 8000,
     "max": 13000,
     "section": 1,
-    "image": "images/Queen's_Crown.png"
+    "image": "../images/Queen's_Crown.png"
   },
   {
     "item": "King's Crown",
     "min": 500,
     "max": 1000,
     "section": 1,
-    "image": "images/King's_Crown.png"
+    "image": "../images/King's_Crown.png"
   },
   {
     "item": "Fake Halo",
     "min": 500,
     "max": 1000,
     "section": 1,
-    "image": "images/Fake_Halo.png"
+    "image": "../images/Fake_Halo.png"
   },
   {
     "item": "Heart Hat",
@@ -109,517 +109,517 @@
     "min": 150,
     "max": 250,
     "section": 1,
-    "image": "images/Apple_O'Love.png"
+    "image": "../images/Apple_O'Love.png"
   },
   {
     "item": "Heart Beads",
     "min": 200,
     "max": 400,
     "section": 1,
-    "image": "images/Heart_Beads.png"
+    "image": "../images/Heart_Beads.png"
   },
   {
     "item": "Romantic Flower",
     "min": 1000,
     "max": 1500,
     "section": 1,
-    "image": "images/Romantic_Flower.png"
+    "image": "../images/Romantic_Flower.png"
   },
   {
     "item": "Rose  on the Mouth",
     "min": 600,
     "max": 1000,
     "section": 1,
-    "image": "images/Rose_On_The_Mouth.png"
+    "image": "../images/Rose_On_The_Mouth.png"
   },
   {
     "item": "Heart Eyes",
     "min": 1500,
     "max": 2000,
     "section": 1,
-    "image": "images/Heart_Eyes.png"
+    "image": "../images/Heart_Eyes.png"
   },
   {
     "item": "Heart Headphones",
     "min": 300,
     "max": 600,
     "section": 1,
-    "image": "images/Heart_Headphones.png"
+    "image": "../images/Heart_Headphones.png"
   },
   {
     "item": "Heart Tiara",
     "min": 300,
     "max": 600,
     "section": 1,
-    "image": "images/Heart_Tiara.png"
+    "image": "../images/Heart_Tiara.png"
   },
   {
     "item": "Red Wuvva Shirt",
     "min": 2000,
     "max": 3000,
     "section": 1,
-    "image": "images/Red_Wuvva_Shirt.png"
+    "image": "../images/Red_Wuvva_Shirt.png"
   },
   {
     "item": "Pink Wuvva Shirt",
     "min": 2000,
     "max": 3000,
     "section": 1,
-    "image": "images/Pink_Wuvva_Shirt.png"
+    "image": "../images/Pink_Wuvva_Shirt.png"
   },
   {
     "item": "White Wuvva Shirt",
     "min": 1000,
     "max": 1500,
     "section": 1,
-    "image": "images/White_Wuvva_Shirt.png"
+    "image": "../images/White_Wuvva_Shirt.png"
   },
   {
     "item": "Half Heart Left",
     "min": 50,
     "max": 100,
     "section": 1,
-    "image": "images/Half_Heart_Left.png"
+    "image": "../images/Half_Heart_Left.png"
   },
   {
     "item": "Half Heart Right",
     "min": 50,
     "max": 100,
     "section": 1,
-    "image": "images/Half_Heart_Right.png"
+    "image": "../images/Half_Heart_Right.png"
   },
   {
     "item": "Blue Candy Floss",
     "min": 300,
     "max": 800,
     "section": 1,
-    "image": "images/Blue_Candy_Floss.png"
+    "image": "../images/Blue_Candy_Floss.png"
   },
   {
     "item": "Pink Candy Floss",
     "min": 300,
     "max": 800,
     "section": 1,
-    "image": "images/Pink_Candy_Floss.png"
+    "image": "../images/Pink_Candy_Floss.png"
   },
   {
     "item": "Blue Heart Lollipop",
     "min": 300,
     "max": 800,
     "section": 1,
-    "image": "images/Blue_Heart_Lollipop.png"
+    "image": "../images/Blue_Heart_Lollipop.png"
   },
   {
     "item": "Pink Heart Lollipop",
     "min": 300,
     "max": 800,
     "section": 1,
-    "image": "images/Pink_Heart_Lollipop.png"
+    "image": "../images/Pink_Heart_Lollipop.png"
   },
   {
     "item": "Daist Flower",
     "min": 2000,
     "max": 3000,
     "section": 1,
-    "image": "images/Daist_Flower.png"
+    "image": "../images/Daist_Flower.png"
   },
   {
     "item": "Pink Dress Top",
     "min": 500,
     "max": 1000,
     "section": 1,
-    "image": "images/Pink_Dress_Top.png"
+    "image": "../images/Pink_Dress_Top.png"
   },
   {
     "item": "Pink Dress Skirt",
     "min": 500,
     "max": 1000,
     "section": 1,
-    "image": "images/Pink_Dress_Skirt.png"
+    "image": "../images/Pink_Dress_Skirt.png"
   },
   {
     "item": "Pink Suit Top",
     "min": 5000,
     "max": 7000,
     "section": 1,
-    "image": "images/Pink_Suit_Top.png"
+    "image": "../images/Pink_Suit_Top.png"
   },
   {
     "item": "Pink Suit Pants",
     "min": 15000,
     "max": 20000,
     "section": 1,
-    "image": "images/Pink_Suit_Pants.png"
+    "image": "../images/Pink_Suit_Pants.png"
   },
   {
     "item": "Violin Backpack",
     "min": 37000,
     "max": 45000,
     "section": 1,
-    "image": "images/Violin_Backpack.png"
+    "image": "../images/Violin_Backpack.png"
   },
   {
     "item": "Heart Head",
     "min": 5400000,
     "max": 5600000,
     "section": 1,
-    "image": "images/Heart_Head.png"
+    "image": "../images/Heart_Head.png"
   },
   {
     "item": "Flower Boquet (held)",
     "min": 200000,
     "max": 250000,
     "section": 1,
-    "image": "images/Flower_Boquet_held.png"
+    "image": "../images/Flower_Boquet_held.png"
   },
   {
     "item": "Rose (held)",
     "min": 3000,
     "max": 8000,
     "section": 1,
-    "image": "images/Rose_held.png"
+    "image": "../images/Rose_held.png"
   },
   {
     "item": "Cactus Head",
     "min": 70000,
     "max": 80000,
     "section": 1,
-    "image": "images/Cactus_Head.png"
+    "image": "../images/Cactus_Head.png"
   },
   {
     "item": "Vallentine Shirt",
     "min": 2500,
     "max": 3000,
     "section": 1,
-    "image": "images/Vallentine_Shirt.png"
+    "image": "../images/Vallentine_Shirt.png"
   },
   {
     "item": "Valentine Pants",
     "min": 2500,
     "max": 3000,
     "section": 1,
-    "image": "images/Valentine_Pants.png"
+    "image": "../images/Valentine_Pants.png"
   },
   {
     "item": "Pink Panda Head",
     "min": 13000,
     "max": 16000,
     "section": 1,
-    "image": "images/Pink_Panda_Head.png"
+    "image": "../images/Pink_Panda_Head.png"
   },
   {
     "item": "Pink Panda Shirt",
     "min": 3000,
     "max": 4000,
     "section": 1,
-    "image": "images/Pink_Panda_Shirt.png"
+    "image": "../images/Pink_Panda_Shirt.png"
   },
   {
     "item": "Pink Panda Pants",
     "min": 3000,
     "max": 4000,
     "section": 1,
-    "image": "images/Pink_Panda_Pants.png"
+    "image": "../images/Pink_Panda_Pants.png"
   },
   {
     "item": "Blue Panda Head",
     "min": 13000,
     "max": 16000,
     "section": 1,
-    "image": "images/Blue_Panda_Head.png"
+    "image": "../images/Blue_Panda_Head.png"
   },
   {
     "item": "Blue Panda Shirt",
     "min": 3000,
     "max": 4000,
     "section": 1,
-    "image": "images/Blue_Panda_Shirt.png"
+    "image": "../images/Blue_Panda_Shirt.png"
   },
   {
     "item": "Blue Panda Pants",
     "min": 3000,
     "max": 4000,
     "section": 1,
-    "image": "images/Blue_Panda_Pants.png"
+    "image": "../images/Blue_Panda_Pants.png"
   },
   {
     "item": "Panda Backpack",
     "min": 8000,
     "max": 13000,
     "section": 1,
-    "image": "images/Panda_Backpack.png"
+    "image": "../images/Panda_Backpack.png"
   },
   {
     "item": "Red Candy Lollipop",
     "min": 1500,
     "max": 2000,
     "section": 1,
-    "image": "images/Red_Candy_Lollipop.png"
+    "image": "../images/Red_Candy_Lollipop.png"
   },
   {
     "item": "Blue Candy Lollipop",
     "min": 1500,
     "max": 2000,
     "section": 1,
-    "image": "images/Blue_Candy_Lollipop.png"
+    "image": "../images/Blue_Candy_Lollipop.png"
   },
   {
     "item": "Blue Paciifier",
     "min": 2500,
     "max": 3500,
     "section": 1,
-    "image": "images/Blue_Paciifier.png"
+    "image": "../images/Blue_Paciifier.png"
   },
   {
     "item": "Pink Pacifier",
     "min": 2500,
     "max": 3500,
     "section": 1,
-    "image": "images/Pink_Pacifier.png"
+    "image": "../images/Pink_Pacifier.png"
   },
   {
     "item": "Blue Baby Bonnet",
     "min": 2000,
     "max": 2500,
     "section": 1,
-    "image": "images/Blue_Baby_Bonnet.png"
+    "image": "../images/Blue_Baby_Bonnet.png"
   },
   {
     "item": "Pink Baby Bonnet",
     "min": 2000,
     "max": 2500,
     "section": 1,
-    "image": "images/Pink_Baby_Bonnet.png"
+    "image": "../images/Pink_Baby_Bonnet.png"
   },
   {
     "item": "Heart Tail",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Heart_Tail.png"
+    "image": "../images/Heart_Tail.png"
   },
   {
     "item": "Heart Ears",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Heart_Ears.png"
+    "image": "../images/Heart_Ears.png"
   },
   {
     "item": "Yellow Princess Top",
     "min": 150,
     "max": 250,
     "section": 1,
-    "image": "images/Yellow_Princess_Top.png"
+    "image": "../images/Yellow_Princess_Top.png"
   },
   {
     "item": "Yellow Princess Dress",
     "min": 150,
     "max": 250,
     "section": 1,
-    "image": "images/Yellow_Princess_Dress.png"
+    "image": "../images/Yellow_Princess_Dress.png"
   },
   {
     "item": "Green Princess Top",
     "min": 150,
     "max": 250,
     "section": 1,
-    "image": "images/Green_Princess_Top.png"
+    "image": "../images/Green_Princess_Top.png"
   },
   {
     "item": "Green Princess Dress",
     "min": 150,
     "max": 250,
     "section": 1,
-    "image": "images/Green_Princess_Dress.png"
+    "image": "../images/Green_Princess_Dress.png"
   },
   {
     "item": "Baby Owl Top",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Baby_Owl_Top.png"
+    "image": "../images/Baby_Owl_Top.png"
   },
   {
     "item": "Baby Owl Shirt",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Baby_Owl_Shirt.png"
+    "image": "../images/Baby_Owl_Shirt.png"
   },
   {
     "item": "Baby Owl Pants",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Baby_Owl_Pants.png"
+    "image": "../images/Baby_Owl_Pants.png"
   },
   {
     "item": "Mother Owl Top",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Mother_Owl_Top.png"
+    "image": "../images/Mother_Owl_Top.png"
   },
   {
     "item": "Mother Owl Shirt",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Mother_Owl_Shirt.png"
+    "image": "../images/Mother_Owl_Shirt.png"
   },
   {
     "item": "Mother Owl Pants",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Mother_Owl_Pants.png"
+    "image": "../images/Mother_Owl_Pants.png"
   },
   {
     "item": "Rabbit F Top",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Rabbit_F_Top.png"
+    "image": "../images/Rabbit_F_Top.png"
   },
   {
     "item": "Rabbit F Shirt",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Rabbit_F_Shirt.png"
+    "image": "../images/Rabbit_F_Shirt.png"
   },
   {
     "item": "Rabbit F Pants",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Rabbit_F_Pants.png"
+    "image": "../images/Rabbit_F_Pants.png"
   },
   {
     "item": "Rabbit M Top",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Rabbit_M_Top.png"
+    "image": "../images/Rabbit_M_Top.png"
   },
   {
     "item": "Rabbit M Shirt",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Rabbit_M_Shirt.png"
+    "image": "../images/Rabbit_M_Shirt.png"
   },
   {
     "item": "Rabbit M Pants",
     "min": 100,
     "max": 200,
     "section": 1,
-    "image": "images/Rabbit_M_Pants.png"
+    "image": "../images/Rabbit_M_Pants.png"
   },
   {
     "item": "Cute Bee Top",
     "min": 150,
     "max": 300,
     "section": 1,
-    "image": "images/Cute_Bee_Top.png"
+    "image": "../images/Cute_Bee_Top.png"
   },
   {
     "item": "Cute Bee Shirt",
     "min": 150,
     "max": 300,
     "section": 1,
-    "image": "images/Cute_Bee_Shirt.png"
+    "image": "../images/Cute_Bee_Shirt.png"
   },
   {
     "item": "Cute Bee Pants",
     "min": 150,
     "max": 300,
     "section": 1,
-    "image": "images/Cute_Bee_Pants.png"
+    "image": "../images/Cute_Bee_Pants.png"
   },
   {
     "item": "Flower Top",
     "min": 300,
     "max": 600,
     "section": 1,
-    "image": "images/Flower_Top.png"
+    "image": "../images/Flower_Top.png"
   },
   {
     "item": "Flower Pants",
     "min": 300,
     "max": 600,
     "section": 1,
-    "image": "images/Flower_Pants.png"
+    "image": "../images/Flower_Pants.png"
   },
   {
     "item": "Rainbow Unicorn Tail",
     "min": 1000,
     "max": 1500,
     "section": 1,
-    "image": "images/Rainbow_Unicorn_Tail.png"
+    "image": "../images/Rainbow_Unicorn_Tail.png"
   },
   {
     "item": "Rainbow Unciron Top",
     "min": 1000,
     "max": 1500,
     "section": 1,
-    "image": "images/Rainbow_Unicorn_Top.png"
+    "image": "../images/Rainbow_Unicorn_Top.png"
   },
   {
     "item": "Rainbow Unicorn Shirt",
     "min": 1000,
     "max": 1500,
     "section": 1,
-    "image": "images/Rainbow_Unicorn_Shirt.png"
+    "image": "../images/Rainbow_Unicorn_Shirt.png"
   },
   {
     "item": "Rainbow Unicorn Pants",
     "min": 1000,
     "max": 1500,
     "section": 1,
-    "image": "images/Rainbow_Unicorn_Pants.png"
+    "image": "../images/Rainbow_Unicorn_Pants.png"
   },
   {
     "item": "Pink Balloon",
     "min": 3000,
     "max": 3500,
     "section": 1,
-    "image": "images/Pink_Balloon.png"
+    "image": "../images/Pink_Balloon.png"
   },
   {
     "item": "Chocolate Wings",
     "min": 3000,
     "max": 5000,
     "section": 1,
-    "image": "images/Chocolate_Wings.png"
+    "image": "../images/Chocolate_Wings.png"
   },
   {
     "item": "Chocolate Head",
     "min": 500,
     "max": 800,
     "section": 1,
-    "image": "images/Chocolate_Head.png"
+    "image": "../images/Chocolate_Head.png"
   },
   {
     "item": "Chocolate Shirt",
     "min": 500,
     "max": 800,
     "section": 1,
-    "image": "images/Chocolate_Shirt.png"
+    "image": "../images/Chocolate_Shirt.png"
   },
   {
     "item": "Chocolate Pants",
     "min": 500,
     "max": 800,
     "section": 1,
-    "image": "images/Chocolate_Pants.png"
+    "image": "../images/Chocolate_Pants.png"
   },
   {
     "item": "Chocolate Staff",
     "min": 500,
     "max": 800,
     "section": 1,
-    "image": "images/Chocolate_Staff.png"
+    "image": "../images/Chocolate_Staff.png"
   }
 ]
