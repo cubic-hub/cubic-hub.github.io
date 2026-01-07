@@ -4,14 +4,14 @@
     "min": 3500000, 
     "max": 4000000, 
     "section": 1,
-    "image": "/images/Cupids_Halo.png"
+    "image": "/images/Cupids_Halo.webp"
   },
   { 
     "item": "Cupid's Wings", 
     "min": 270000, 
     "max": 320000, 
     "section": 1, 
-    "image": "images/Cupids_Wings.png"
+    "image": "images/Cupids_Wings.webp"
   },
   { 
     "item": "Valentine Wings", 
