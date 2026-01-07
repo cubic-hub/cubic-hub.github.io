@@ -4,7 +4,7 @@
     "min": 3500000, 
     "max": 4000000, 
     "section": 1,
-    "image": "/images/Cupids_halo.png"
+    "image": "images/Cupids_halo.png"
   },
   { 
     "item": "Cupid's Wings", 

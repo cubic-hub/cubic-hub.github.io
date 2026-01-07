@@ -62,7 +62,7 @@
       <h2 id="modal-name"></h2>
       <div id="modal-price" class="modal-price"></div>
       <div class="item-image">
-        <img id="modal-image" src="" alt="Item image" onerror="this.src='images/default.png'"/>
+        <img id="modal-image" src="" alt="Item image" onerror="this.src='images/default.svg'"/>
       </div>
       <div class="modal-actions">
         <button id="close-modal" class="btn-secondary">Close</button>
@@ -228,8 +228,18 @@
       }
 
       // Use image path from JSON; fallback handled by onerror attribute
-      document.getElementById('modal-image').src = entry.image || 'images/default.png';
-      document.getElementById('modal-image').alt = entry.item;
+      const modalImage = document.getElementById('modal-image');
+      // react to loaded image to decide if we should show a banner-style modal
+      modalImage.onload = function() {
+        const modalCard = modal.querySelector('.modal-card');
+        if (modalImage.naturalWidth && modalImage.naturalHeight && (modalImage.naturalWidth / modalImage.naturalHeight > 2)) {
+          modalCard.classList.add('banner');
+        } else {
+          modalCard.classList.remove('banner');
+        }
+      };
+      modalImage.src = entry.image || 'images/default.svg';
+      modalImage.alt = entry.item;
 
       modal.showModal();
       // trigger CSS animation class

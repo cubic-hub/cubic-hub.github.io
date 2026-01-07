@@ -197,8 +197,41 @@ section.card h1{ margin:0 0 12px 0; font-size:20px; }
 .modal-card h2{ color: var(--text); }
 .modal-price{ color:var(--muted); margin-bottom:12px; }
 .item-image{ display:flex; justify-content:center; align-items:center; margin:8px 0 12px; }
-.item-image img{ max-width:100%; height:auto; border-radius:8px; border:1px solid rgba(255,255,255,0.03); width: 200px; height: 200px; object-fit: cover; }
+.item-image img{
+  max-width:100%;
+  height:auto;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.03);
+  object-fit: contain;
+  display:block;
+}
 
+/* Banner variant: display wide images as a small rectangular banner */
+.modal-card.banner {
+  width: min(320px, 96vw);
+  padding-bottom: 0;
+}
+.modal-card.banner .item-image {
+  margin: 0 auto;
+  width: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.modal-card.banner .item-image img {
+  width: 200px;
+  height: 90px;
+  object-fit: cover; /* crop to fit the banner dimensions */
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.03);
+  display: block;
+}
+
+/* Smaller banner on narrow screens */
+@media (max-width: 640px) {
+  .modal-card.banner { width: min(240px, 94vw); }
+  .modal-card.banner .item-image img { width: 200px; height: 64px; }
+}
 /* Modal actions */
 .modal-actions{ display:flex; justify-content:flex-end; gap:8px; margin-top:8px; }
 
