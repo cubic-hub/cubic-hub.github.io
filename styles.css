@@ -197,7 +197,7 @@ section.card h1{ margin:0 0 12px 0; font-size:20px; }
 .modal-card h2{ color: var(--text); }
 .modal-price{ color:var(--muted); margin-bottom:12px; }
 .item-image{ display:flex; justify-content:center; align-items:center; margin:8px 0 12px; }
-.item-image img{ max-width:100%; height:auto; border-radius:8px; border:1px solid rgba(255,255,255,0.03); }
+.item-image img{ max-width:100%; height:auto; border-radius:8px; border:1px solid rgba(255,255,255,0.03); width: 200px; height: 200px; object-fit: cover; }
 
 /* Modal actions */
 .modal-actions{ display:flex; justify-content:flex-end; gap:8px; margin-top:8px; }
