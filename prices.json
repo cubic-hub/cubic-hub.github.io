@@ -11,7 +11,7 @@
     "min": 270000, 
     "max": 320000, 
     "section": 1, 
-    "image": "images/Cupids_Wings.webp"
+    "image": "images/Cupids_Wings.png"
   },
   { 
     "item": "Valentine Wings", 
@@ -607,7 +607,7 @@
     "min": 500,
     "max": 800,
     "section": 1,
-    "image": ".images/Chocolate_Shirt.png"
+    "image": "images/Chocolate_Shirt.png"
   },
   {
     "item": "Chocolate Pants",
