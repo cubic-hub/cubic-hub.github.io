@@ -9,17 +9,17 @@ Cubic Hub is a community-driven website for **Cubic Castles** players. Right now
 --- 
 
 ## 📂 Project Structure
-`/index.html` Landing Page
+`/index.html` Main Page
 
-`/craft/index.html` Crafting Recipes
+`/craft.html` Crafting Recipes
 
-`/prices/index.html` Static Prices list (clothing)
+`/prices.html` Prices list (clothing only)
 
-`/contact/index.html` Contact Support Page
+`/contact.html` Contact Support Page
 
 `/css` Site Styling
 
-`/scripts` Folder for all the scripts
+`scripts.js` JavaScript file that controls search functionality for prices and creafting pages. 
 
 `/images` All images for the Prices and Crafting pages
 
