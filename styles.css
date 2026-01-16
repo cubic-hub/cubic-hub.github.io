@@ -51,6 +51,11 @@ body{
   letter-spacing:0.4px;
   color:var(--text);
 }
+.brand img{
+  height:18px;
+  width:auto;
+  vertical-align:middle;
+}
 .nav a{
   color:var(--muted);
   text-decoration:none;
@@ -62,6 +67,18 @@ body{
 }
 .nav a:hover{ color:var(--text); background: rgba(255,255,255,0.02); }
 .nav a.active{ color:var(--accent); box-shadow: 0 4px 18px rgba(110,231,183,0.08); }
+
+/* Nav underline animation */
+.nav a{ position:relative; overflow:visible; }
+.nav a::after{ content: ''; position:absolute; left:50%; bottom:-6px; transform:translateX(-50%) scaleX(0); width:60%; height:2px; background:var(--accent); border-radius:2px; transition: transform .18s ease; transform-origin:center; opacity:0.95; }
+.nav a:hover::after, .nav a.active::after{ transform:translateX(-50%) scaleX(1); opacity:1; }
+
+/* Nav toggle (hamburger) */
+.nav-toggle{ display:none; background:transparent; border:none; padding:6px; width:40px; height:36px; border-radius:8px; cursor:pointer; align-items:center; justify-content:center; }
+.nav-toggle .bar{ display:block; width:18px; height:2px; background:var(--muted); margin:3px 0; border-radius:2px; transition: transform .2s ease, opacity .2s ease; }
+.nav-toggle.open .bar:nth-child(1){ transform: translateY(6px) rotate(45deg); }
+.nav-toggle.open .bar:nth-child(2){ opacity:0; transform: scaleX(0); }
+.nav-toggle.open .bar:nth-child(3){ transform: translateY(-6px) rotate(-45deg); }
 
 /* Card */
 .card{
@@ -156,6 +173,7 @@ section.card h1{ margin:0 0 12px 0; font-size:20px; }
   font-weight:600;
   background:transparent;
   color:var(--text);
+  text-decoration: none;
 }
 .btn-primary{
   background: linear-gradient(90deg, rgba(110,231,183,0.12), rgba(123,211,255,0.06));
