@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Cubic Hub</title>
+  <link rel="icon" href="Faviconv2.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+  <style>
+    .contact-status { margin-top: 12px; font-weight: 600; }
+    .contact-success { color: #4ADEFF; }
+    .contact-error { color: #FF5F5F; }
+    .contact-loading { color: var(--muted); }
+  </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">Cubic Hub</div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="prices.html">Prices</a>
+            <a href="craft.html">Craft</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+  <main class="container">
+    <article class="card">
+      <h1>Contact Us</h1>
+
+      <form id="contact-form">
+        <label class="field">
+          <span>Name</span>
+          <input type="text" name="user_name" required />
+        </label>
+
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="user_email" required />
+        </label>
+
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <div style="display:flex; gap:8px; align-items:center;">
+          <button class="btn-primary" type="submit">Send</button>
+          <div id="contact-status" class="contact-status contact-loading" aria-live="polite"></div>
+        </div>
+      </form>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 Cubic Hub</span>
+  </footer>
+  
+  <script>
+    // Initialize EmailJS with your public key
+    (function(){
+      emailjs.init("kUBZAGfCosCDHAvRT"); // Public Key
+    })();
+
+    const form = document.getElementById('contact-form');
+    const statusEl = document.getElementById('contact-status');
+
+    // Only one template ID now (owner template)
+    const SERVICE_ID = "service_ybtgi4e"; // Service ID
+    const OWNER_TEMPLATE_ID = "template_q4t1ip9"; // Template ID
+
+    function setStatus(text, cls) {
+      statusEl.textContent = text;
+      statusEl.className = 'contact-status ' + (cls || '');
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const submitBtn = form.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      setStatus('Sending…', 'contact-loading');
+
+      // Send only one email (to owner)
+      emailjs.sendForm(SERVICE_ID, OWNER_TEMPLATE_ID, form)
+        .then(() => {
+          setStatus('Message sent successfully!', 'contact-success');
+          form.reset();
+        })
+        .catch((err) => {
+          console.error('EmailJS error:', err);
+          setStatus('Failed to send message. Please try again later.', 'contact-error');
+        })
+        .finally(() => {
+          submitBtn.disabled = false;
+        });
+    });
+  </script>
+</body>
+</html>
