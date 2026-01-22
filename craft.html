@@ -1,54 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Crafting — Cubic Hub</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Cubic Hub</title>
   <link rel="icon" href="Faviconv2.png" type="image/png">
-  <link rel="stylesheet" href="styles.css"/>
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="site-header">
+    <header class="site-header">
     <a href="index.html" class="brand"><img src="Cubic Hub4.png" alt="Cubic Hub"></a>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="prices.html">Prices</a>
-      <a href="craft.html" class="active">Craft</a>
-    </nav>
-  </header>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="prices.html">Prices</a>
+            <a href="craft.html" class="active">Craft</a>
+        </nav>
+    </header>
 
   <main class="container">
-    <h1>Crafting Recipes</h1>
+    <article class="card">
+      <h1>Crafting Under Construction</h1>
 
-    <div class="info-box">
-      <strong>Note:</strong> Crafting recipes are not all upload and is still under development. Please do not rely on this part of the site until fully funtional. I will keep y'all updated when I continue to roll out features. Thank you - BloodVine Date: 12/18/2025
-    </div>
+      <p class="info-box">This page is currently unavailable. Please check back later.</p>
 
-    <div class="search-wrapper">
-      <input type="text" id="craft-search" placeholder="🔍 Search recipes..." class="search-bar"/>
-      <button type="button" id="craft-clear" class="clear-btn" style="display:none;">&times;</button>
-    </div>
-
-    <ul id="craft-list" class="list" style="margin:0;">
-      <li data-item="Wooden Crate">
-        <a class="btn-link" href="craft/wooden-crate.html">Wooden Crate</a>
-        <div class="muted">Needed: 8 × Wood Plank, 4 × Nails</div>
-      </li>
-
-      <li data-item="Stone Block">
-        <a class="btn-primary" href="craft/stone-block.html">Stone Block</a>
-        <div class="muted">Needed: 1 × Stone</div>
-      </li>
-
-      <li data-item="Iron Block">
-        <a class="btn-link" href="craft/iron-block.html">Iron Block</a>
-        <div class="muted">Needed: 1 × Iron Ore</div>
-      </li>
-    </ul>
-
-    <p id="craft-no-results" class="no-results" style="display:none;">No results found.</p>
+      <div style="display:flex; gap:12px; align-items:center;">
+        <a href="index.html" class="btn-primary">Go to Home</a>
+        <a href="prices.html" class="btn-primary">View Prices</a>
+      </div>
+    </article>
   </main>
+
   <footer class="site-footer">
     <span>&copy; 2025 Cubic Hub</span>
   </footer>
